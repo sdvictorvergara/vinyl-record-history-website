@@ -1,0 +1,253 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+       * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: blue;
+    }
+/* HEADER CONTENT_________________________________________________ */
+    .container {
+        margin: 2% auto;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        height: 12vh;
+        width: 80vw;
+        border-radius: 20px;
+    }
+
+    #taskBar {
+        margin: 2%;
+    }
+
+    #navBar ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 50%;
+    }
+
+    /* #navBar li {
+    display: inline;
+    } */
+
+    #navBar li:hover {
+        color: white;
+    }
+
+/* MAIN CONTENT_________________________________________________ */
+
+    .contentContainer {
+        margin: 2% auto;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        height: 49vh;
+        width: 80vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #musicianCard {
+        margin: 2% auto;
+        /* background-color: green; */
+        height: 50vh;
+        width: 80vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        margin: 3%;
+        background-color: purple;
+        height: 40vh;
+        width: 20vw;
+        border-radius: 20px;
+    }
+
+    .card img {
+        border-radius: 20px;
+        margin: 10px;
+        height: 20vh;
+        width: 15vw;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: blue;
+    }
+/* HEADER CONTENT_________________________________________________ */
+    .container {
+        margin: 2% auto;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        height: 12vh;
+        width: 80vw;
+        border-radius: 20px;
+    }
+
+    #taskBar {
+        margin: 2%;
+    }
+
+    #navBar ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 50%;
+    }
+
+    /* #navBar li {
+    display: inline;
+    } */
+
+    #navBar li:hover {
+        color: white;
+    }
+
+/* MAIN CONTENT_________________________________________________ */
+
+    .contentContainer {
+        margin: 2% auto;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        height: 49vh;
+        width: 80vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #musicianCard {
+        margin: 2% auto;
+        /* background-color: green; */
+        height: 50vh;
+        width: 80vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 3%;
+        background-color: purple;
+        height: 40vh;
+        width: 20vw;
+        border-radius: 20px;
+    }
+
+    .card img {
+        border-radius: 20px;
+        margin: 10px;
+        height: 20vh;
+        width: 15vw;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: blue;
+    }
+/* HEADER CONTENT_________________________________________________ */
+    .container {
+        margin: 2% auto;
+        background-color: red;
+        display: flex;
+        align-items: center;
+        height: 12vh;
+        width: 80vw;
+        border-radius: 20px;
+    }
+
+    #taskBar {
+        margin: 2%;
+    }
+
+    #navBar ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        gap: 50%;
+    }
+
+    /* #navBar li {
+    display: inline;
+    } */
+
+    #navBar li:hover {
+        color: white;
+    }
+
+/* MAIN CONTENT_________________________________________________ */
+
+    .contentContainer {
+        margin: 2% auto;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        height: 49vh;
+        width: 80vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    #musicianCard {
+        margin: 2% auto;
+        /* background-color: green; */
+        height: 50vh;
+        width: 80vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .card {
+        margin: 3%;
+        background-color: purple;
+        height: 40vh;
+        width: 20vw;
+        border-radius: 20px;
+    }
+
+    .card img {
+        border-radius: 20px;
+        margin: 10px;
+        height: 20vh;
+        width: 15vw;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    /* Desktop */
+}
