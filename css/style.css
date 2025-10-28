@@ -1,253 +1,165 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-       * {
-        margin: 0;
-        padding: 0;
-    }
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
 
-    body {
-        background-color: blue;
-    }
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1c1a31;
+    font-family: 'Holtwood One SC', serif;
+    color: white;
+}
+
 /* HEADER CONTENT_________________________________________________ */
-    .container {
-        margin: 2% auto;
-        background-color: red;
-        display: flex;
-        align-items: center;
-        height: 12vh;
-        width: 80vw;
-        border-radius: 20px;
-    }
+.container {
+    margin: 2% auto;
+    background-color: #15162a;
+    border: #3a3c5f solid 1px;
+    display: flex;
+    align-items: center;
+    height: 12vh;
+    width: 80vw;
+    border-radius: 25px;
+}
 
-    #taskBar {
-        margin: 2%;
-    }
+#taskBar {
+    margin: 2%;
+}
 
-    #navBar ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        gap: 50%;
-    }
+#taskBar
 
-    /* #navBar li {
-    display: inline;
-    } */
+#logo {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
 
-    #navBar li:hover {
-        color: white;
-    }
+#logo img {
+    width: clamp(2rem, 5vw, 5rem);
+    height: auto;
+}
+
+
+#navBar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50%;
+}
+
+#navBar{
+    color: #551a8b
+}
+
+#navBar li:hover {
+    color: white;
+}
 
 /* MAIN CONTENT_________________________________________________ */
 
-    .contentContainer {
-        margin: 2% auto;
-        background-color: green;
-        display: flex;
-        align-items: center;
-        height: 49vh;
-        width: 80vw;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-    }
+/* .maginContainer {
+    margin: 2% auto;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    height: 79vh;
+    width: 80vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+} */
 
-    #musicianCard {
-        margin: 2% auto;
-        /* background-color: green; */
-        height: 50vh;
-        width: 80vw;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
+#contentMagin {
+    text-align: center;
+    margin: 10% 0 13% 0;
+}
 
-    .card {
+#contentMagin h1{
+    text-align: center;
+    font-size: 55px;
+    text-decoration: underline;
+}
+
+#contentMagin p {
+    max-width: 55%;
+    margin: 0 auto;
+}
+
+#contentMagin button {
+    margin: 4% 0 0 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0.5rem;
+}
+
+#musicianCard {
+    margin: 2% auto;
+    background-color: purple;
+    height: 132vh;
+    width: 80vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    /*
         margin: 3%;
         background-color: purple;
         height: 40vh;
         width: 20vw;
         border-radius: 20px;
-    }
+        */
 
-    .card img {
-        border-radius: 20px;
-        margin: 10px;
-        height: 20vh;
-        width: 15vw;
-    }
+    margin: 2% auto;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    height: 35vh;
+    width: 76vw;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        background-color: blue;
-    }
-/* HEADER CONTENT_________________________________________________ */
-    .container {
-        margin: 2% auto;
-        background-color: red;
-        display: flex;
-        align-items: center;
-        height: 12vh;
-        width: 80vw;
-        border-radius: 20px;
-    }
-
-    #taskBar {
-        margin: 2%;
-    }
-
-    #navBar ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        gap: 50%;
-    }
-
-    /* #navBar li {
-    display: inline;
-    } */
-
-    #navBar li:hover {
-        color: white;
-    }
-
-/* MAIN CONTENT_________________________________________________ */
-
-    .contentContainer {
-        margin: 2% auto;
-        background-color: green;
-        display: flex;
-        align-items: center;
-        height: 49vh;
-        width: 80vw;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    #musicianCard {
-        margin: 2% auto;
-        /* background-color: green; */
-        height: 50vh;
-        width: 80vw;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .card {
-        margin: 3%;
-        background-color: purple;
-        height: 40vh;
-        width: 20vw;
-        border-radius: 20px;
-    }
-
-    .card img {
-        border-radius: 20px;
-        margin: 10px;
-        height: 20vh;
-        width: 15vw;
-    }
-
+.card img {
+    border-radius: 20px;
+    margin: 10px;
+    height: 20vh;
+    width: 15vw;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-
-    * {
-        margin: 0;
-        padding: 0;
-    }
-
-    body {
-        background-color: blue;
-    }
-/* HEADER CONTENT_________________________________________________ */
-    .container {
-        margin: 2% auto;
-        background-color: red;
-        display: flex;
-        align-items: center;
-        height: 12vh;
-        width: 80vw;
-        border-radius: 20px;
-    }
-
-    #taskBar {
-        margin: 2%;
-    }
-
-    #navBar ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        gap: 50%;
-    }
-
-    /* #navBar li {
-    display: inline;
-    } */
-
-    #navBar li:hover {
-        color: white;
-    }
-
-/* MAIN CONTENT_________________________________________________ */
-
-    .contentContainer {
-        margin: 2% auto;
-        background-color: green;
-        display: flex;
-        align-items: center;
-        height: 49vh;
-        width: 80vw;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    #musicianCard {
-        margin: 2% auto;
-        /* background-color: green; */
-        height: 50vh;
-        width: 80vw;
-        border-radius: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .card {
-        margin: 3%;
-        background-color: purple;
-        height: 40vh;
-        width: 20vw;
-        border-radius: 20px;
-    }
-
-    .card img {
-        border-radius: 20px;
-        margin: 10px;
-        height: 20vh;
-        width: 15vw;
-    }
-
+#footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    width: 100vw;
+    height: 30vh;
 }
 
-@media screen and (min-width: 1440px) {
-    /* Desktop */
+#socialMedia {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
 }
+
+#socialMedia a {
+
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+/* Social media circles____________________________________________ */
+#github {background-color: gray;}
+#email {background-color: red;}
+
+/* #footerContainer p {
+    font-family: Arial, Helvetica, sans-serif;
+} */
+
+
