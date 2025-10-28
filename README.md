@@ -25,16 +25,16 @@ git clone https://github.com/sdvictorvergara/vinyl-record-history-website
 vinyl-record-history-website/
 │
 ├── index.html
+├── LICENSE
+├── README.md
 │
 ├── css/
-│   ├── style.css           
-│   └── reset.css          
+│   └── style.css
 │
 ├── images/
-│   ├── logo.png            
-│   ├── banner.jpg          
-│   └── icons/              
-│       └── menu.svg
+│   ├── 898d8d.jpg
+│   ├── logo.ico
+│   └── nav-icon.svg
 │
 └── README.md
 ````
