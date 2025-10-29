@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+/* @media only screen and (max-width: 600px) {...}
+@media only screen and (min-width: 768px) {...}*/
+@media only screen and (min-width: 992px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
-* {
-    margin: 0;
-    padding: 0;
-}
+    body {
+        background-color: #1c1a31;
+        font-family: 'Holtwood One SC', serif;
+        color: white;
+    }
 
-body {
-    background-color: #1c1a31;
-    font-family: 'Holtwood One SC', serif;
-    color: white;
-}
-
-/* HEADER CONTENT_________________________________________________ */
-/* .container {
+    /* HEADER CONTENT_________________________________________________ */
+    /* .container {
     margin: 2% auto;
     background-color: #15162a;
     border: #3a3c5f solid 1px;
@@ -23,78 +25,78 @@ body {
     border-radius: 25px;
 } */
 
-.container {
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
-    margin: 2% 0 0 0; 
-    background-color: #15162a;
-    border: #3a3c5f solid 1px;
-    display: flex; 
-    align-items: center;
-    height: 12vh;
-    width: 80vw;
-    border-radius: 25px;
-}
+    .container {
+        position: fixed;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+        margin: 2% 0 0 0;
+        background-color: #15162a;
+        border: #3a3c5f solid 1px;
+        display: flex;
+        align-items: center;
+        height: 12vh;
+        width: 80vw;
+        border-radius: 25px;
+    }
 
-#taskBar {
-    margin: 2%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    #taskBar {
+        margin: 2%;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-#busqueda {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 30%;
-    padding: 0.5rem;
-    border-radius: 10px;
-    border: 1px solid #3a3c5f;
-}
+    #buscador {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 30%;
+        padding: 0.5rem;
+        border-radius: 10px;
+        border: 1px solid #3a3c5f;
+    }
 
-#logo {
-    display: flex;
-    align-items: center;
-    gap: 1vw;
-    text-decoration: none;
-    color: white;
-}
+    #logo {
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        text-decoration: none;
+        color: white;
+    }
 
-#logo img {
-    width: clamp(2rem, 5vw, 5rem);
-    height: auto;
-}
+    #logo img {
+        width: clamp(2rem, 5vw, 5rem);
+        height: auto;
+    }
 
-#navBar ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-}
+    #navBar ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 0;
+        padding: 0;
+    }
 
-#navBar a {
-    text-decoration: none;
-    color: #45488f;
-    padding: 0.5rem 1rem;  
-    transition: background-color 0.5s;  
-    border-radius: 10px;
-}
+    #navBar a {
+        text-decoration: none;
+        color: #45488f;
+        padding: 0.5rem 1rem;
+        transition: background-color 0.5s;
+        border-radius: 10px;
+    }
 
-#navBar a:hover {
-    color: black;
-    background-color: #51faaa; 
-}
+    #navBar a:hover {
+        color: black;
+        background-color: #51faaa;
+    }
 
-/* MAIN CONTENT_________________________________________________ */
+    /* MAIN CONTENT_________________________________________________ */
 
-/* .maginContainer {
+    /* .home {
     margin: 2% auto;
     background-color: green;
     display: flex;
@@ -106,42 +108,65 @@ body {
     justify-content: center;
 } */
 
-#contentMagin {
-    text-align: center;
-    margin: 20% 0 16% 0;
+    #contentMagin {
+        text-align: center;
+        margin: 20% 0 16% 0;
     }
 
-#contentMagin h1{
-    text-align: center;
-    font-size: 55px;
-    text-decoration: underline;
-}
+    #contentMagin h1 {
+        font-size: 55px;
+        text-decoration: underline;
+    }
 
-#contentMagin p {
-    max-width: 55%;
-    margin: 0 auto;
-}
+    #contentMagin p {
+        max-width: 55%;
+        margin: 0 auto;
+    }
 
-#contentMagin button {
-    margin: 4% 0 0 0;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 0.5rem;
-}
+    /* #listas {
+        font-family: 'Holtwood One SC', serif;
+        margin: 4% 0 0 0;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+    } */
 
-#musicianCard {
-    margin: 2% auto;
-    background-color: purple;
-    height: 132vh;
-    width: 80vw;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
+    #listas {
+        font-family: 'Holtwood One SC', serif;
+        margin: 4% 0 0 0;
+        border: 1px solid black;
+        border-radius: 10px;
+        padding: 0.5rem;
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+        display: inline-block;
+        margin-top: 40px;
+        text-decoration: none;
+    }
 
-.card {
-    /*
+    #listas:hover {
+        background-color: #51faaa;
+        transition: 0.5s;
+        padding: 1.5rem;
+    }
+
+    #musicianCard {
+        margin: 2% auto;
+        background-color: purple;
+        height: 132vh;
+        width: 80vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        /*
         margin: 3%;
         background-color: purple;
         height: 40vh;
@@ -149,51 +174,88 @@ body {
         border-radius: 20px;
         */
 
-    margin: 2% auto;
-    background-color: green;
-    display: flex;
-    align-items: center;
-    height: 35vh;
-    width: 76vw;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-}
+        margin: 2% auto;
+        background-color: green;
+        display: flex;
+        align-items: center;
+        height: 35vh;
+        width: 76vw;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+    }
 
-.card img {
-    border-radius: 20px;
-    margin: 10px;
-    height: 20vh;
-    width: 15vw;
-}
+    .card img {
+        border-radius: 20px;
+        margin: 10px;
+        height: 20vh;
+        width: 15vw;
+    }
 
-#footerContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: brown;
-    width: 100vw;
-    height: 30vh;
-}
+    #sevices {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+    }
 
-#socialMedia {
-    display: flex;
-    justify-content: space-between;
-    gap: 5rem;
-}
+    #serviceContainer {
+        background-color: #141223;
+        width: 100vw;
+        height: 40vh;
+        text-align: center;
 
-#socialMedia a {
+    }
 
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-}
+    #serviceContainer h2 {
+        font-size: 2.5rem;
+        margin: 1.5rem 0 0 0;
+    }
 
-/* Social media circles____________________________________________ */
-#github {background-color: gray;}
-#email {background-color: red;}
+    #serviceContainer p {
+        max-width: 65%;
+        margin: 1% auto;
+    }
 
-/* #footerContainer p {
+    #contact{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    /* footer______________________________________________________ */
+    #footerContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: brown;
+        width: 100vw;
+        height: 30vh;
+    }
+
+    #socialMedia {
+        display: flex;
+        justify-content: space-between;
+        gap: 5rem;
+    }
+
+    #socialMedia a {
+
+        border-radius: 100px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+    }
+
+    /* Social media circles____________________________________________ */
+    #github {
+        background-color: gray;
+    }
+
+    #email {
+        background-color: red;
+    }
+
+    /* #footerContainer p {
     font-family: Arial, Helvetica, sans-serif;
 } */
+}

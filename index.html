@@ -1,8 +1,4 @@
-<!--
-Añadir un scroll con animacion
-Que la nav se mueva en todo momento junto al scroll de la web.
-Que las cosas aparezcan de la nada a medida que scrollea.
--->
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,13 +18,13 @@ Que las cosas aparezcan de la nada a medida que scrollea.
                     <img src="images/logo.ico" alt="no cargo">
                     <h1>EMPRESA</h1>
                 </a>
-                <input type="search" name="" id="busqueda" placeholder="Search">
+                <input type="search" name="buscador" id="buscador" placeholder="Search">
                 <div id="navBar">
                     <nav>
                         <ul>
                             <li><a href="#">HOME</a></li>
-                            <li><a href="#">LISTAS</a></li>
-                            <li><a href="#">SERVICIOS</a></li>
+                            <li><a href="#sevices">SERVICIOS</a></li>
+                            <li><a href="#contact">CONTACTO</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -36,14 +32,14 @@ Que las cosas aparezcan de la nada a medida que scrollea.
         </div>
     </header>
     <main>
-        <div class="maginContainer">
+        <div class="home">
             <div id="contentMagin">
                 <h1>Vinyl Record WEB</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tincidunt quam, vitae elementum
                     est. Phasellus posuere mi ac ligula consectetur pharetra. Curabitur orci lectus, bibendum a elit
                     vehicula, varius congue dolor. Nam eu mattis dui. Proin quis risus lectus. Nullam eu risus
-                    efficitur, mollis velit eget, sollicitudin tellus. </p>
-                <a href="#"><button>Listado de Artistas</button></a>
+                    efficitur, mollis velit eget, sollicitudin tellus.</p>
+                <a href="https://crankyuncle.com/please-dont-fail-me/" target="_blank" id="listas">Listado de Artistas</a>
             </div>
         </div>
         <section id="musicianCard">
@@ -53,6 +49,24 @@ Que las cosas aparezcan de la nada a medida que scrollea.
             </article>
             <article class="card">
             </article>
+        </section>
+        <section id="sevices">
+            <div id="serviceContainer">
+                <h2>Servicios</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tincidunt quam, vitae elementum
+                    est. Phasellus posuere mi ac ligula consectetur pharetra. Curabitur orci lectus, bibendum a elit
+                    vehicula, varius congue dolor. Nam eu mattis dui. Proin quis risus lectus. Nullam eu risus
+                    efficitur, mollis velit eget, sollicitudin tellus.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tincidunt quam, vitae elementum
+                    est. Phasellus posuere mi ac ligula consectetur pharetra. Curabitur orci lectus, bibendum a elit
+                    vehicula, varius congue dolor. Nam eu mattis dui. Proin quis risus lectus. Nullam eu risus
+                    efficitur, mollis velit eget, sollicitudin tellus.</p>
+            </div>
+        </section>
+        <section id="contact">
+            <form action="" method="post">
+                
+            </form>
         </section>
     </main>
     <footer>
