@@ -1,8 +1,8 @@
-/ Main script for contact form handling
+// Main script for contact form handling
 document.addEventListener('DOMContentLoaded', function () {
     const contactForm = document.querySelector('form');
     const confirmationMessage = document.createElement('p');
-    
+
     // Style confirmation message
     confirmationMessage.style.color = 'green';
     contactForm.parentNode.insertBefore(confirmationMessage, contactForm.nextSibling);

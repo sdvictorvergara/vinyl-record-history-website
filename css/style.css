@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
-/* ESTILOS BASE Y DESKTOP */
+
+/* BASE STYLES AND DESKTOP */
 @media only screen and (min-width: 992px) {
     * {
         margin: 0;
@@ -12,7 +13,7 @@
         color: white;
     }
 
-    /* HEADER CONTENT_________________________________________________ */
+    /* HEADER CONTENT */
     .container {
         position: fixed;
         top: 0;
@@ -29,7 +30,7 @@
         border-radius: 25px;
     }
 
-    #taskBar {
+    #task-bar {
         margin: 2%;
         width: 100%;
         display: flex;
@@ -37,7 +38,7 @@
         align-items: center;
     }
 
-    #buscador {
+    /* #search {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
@@ -45,7 +46,7 @@
         padding: 0.5rem;
         border-radius: 10px;
         border: 1px solid #3a3c5f;
-    }
+    } */
 
     #logo {
         display: flex;
@@ -60,7 +61,7 @@
         height: auto;
     }
 
-    #navBar ul {
+    #nav-bar ul {
         list-style-type: none;
         display: flex;
         justify-content: center;
@@ -69,7 +70,7 @@
         padding: 0;
     }
 
-    #navBar a {
+    #nav-bar a {
         text-decoration: none;
         color: #45488f;
         padding: 0.5rem 1rem;
@@ -77,28 +78,28 @@
         border-radius: 10px;
     }
 
-    #navBar a:hover {
+    #nav-bar a:hover {
         color: black;
         background-color: #51faaa;
     }
 
-    /* MAIN CONTENT_________________________________________________ */
-    #contentMagin {
+    /* MAIN CONTENT */
+    #content-margin {
         text-align: center;
         margin: 20% 0 16% 0;
     }
 
-    #contentMagin h1 {
+    #content-margin h1 {
         font-size: 55px;
         text-decoration: underline;
     }
 
-    #contentMagin p {
+    #content-margin p {
         max-width: 55%;
         margin: 0 auto;
     }
 
-    #listas {
+    #artists-button {
         font-family: 'Holtwood One SC', serif;
         margin: 4% 0 0 0;
         border: 1px solid transparent;
@@ -112,13 +113,13 @@
         text-decoration: none;
     }
 
-    #listas:hover {
+    #artists-button:hover {
         background-color: white;
         transition: 0.5s;
         padding: 1.5rem;
     }
 
-    #musicianCard {
+    #musician-card {
         padding: 3rem 0;
         display: flex;
         flex-direction: column;
@@ -181,26 +182,26 @@
         margin: 0;
     }
 
-    #sevices {
+    #services {
         height: 100vh;
         width: 100vw;
         display: flex;
         align-items: center;
     }
 
-    #serviceContainer {
+    #service-container {
         background-color: #141223;
         width: 100vw;
-        height: 40vh;
+        height: 50vh;
         text-align: center;
     }
 
-    #serviceContainer h2 {
+    #service-container h2 {
         font-size: 2.5rem;
         margin: 1.5rem 0 0 0;
     }
 
-    #serviceContainer p {
+    #service-container p {
         max-width: 65%;
         margin: 1% auto;
     }
@@ -215,7 +216,7 @@
         padding: 3rem 0;
     }
 
-    #contactContainer {
+    #contact-container {
         width: 80vw;
         display: flex;
         justify-content: space-between;
@@ -224,7 +225,7 @@
         gap: 2rem;
     }
 
-    #contactForm {
+    #contact-form {
         background-color: #141223;
         border-radius: 20px;
         padding: 2rem;
@@ -233,22 +234,22 @@
         flex-direction: column;
     }
 
-    #contactForm h2 {
+    #contact-form h2 {
         font-size: 2rem;
         margin-bottom: 1rem;
         color: #51faaa;
         text-align: center;
     }
 
-    #contactForm label {
+    #contact-form label {
         margin-top: 1rem;
         margin-bottom: 0.5rem;
         display: block;
         font-size: 1rem;
     }
 
-    #contactForm input,
-    #contactForm textarea {
+    #contact-form input,
+    #contact-form textarea {
         width: 100%;
         padding: 0.8rem;
         border: none;
@@ -258,12 +259,12 @@
         font-family: 'Holtwood One SC', serif;
     }
 
-    #contactForm input:focus,
-    #contactForm textarea:focus {
+    #contact-form input:focus,
+    #contact-form textarea:focus {
         outline: 2px solid #51faaa;
     }
 
-    #enviar {
+    #submit-button {
         margin-top: 1.5rem;
         background-color: #51faaa;
         border: none;
@@ -275,19 +276,19 @@
         cursor: pointer;
     }
 
-    #enviar:hover {
+    #submit-button:hover {
         background-color: white;
     }
 
-    #mapContainer {
+    #map-container {
         flex: 1 1 45%;
         border-radius: 20px;
         overflow: hidden;
         min-height: 400px;
     }
 
-    /* footer______________________________________________________ */
-    #footerContainer {
+    /* FOOTER */
+    #footer-container {
         background-color: #141223;
         width: 100vw;
         padding: 3rem 0;
@@ -296,32 +297,32 @@
         align-items: center;
     }
 
-    #footerContent {
+    #footer-content {
         text-align: center;
         color: white;
         width: 80%;
     }
 
-    #footerContent h3 {
+    #footer-content h3 {
         font-size: 1.8rem;
         margin-bottom: 0.5rem;
         color: #51faaa;
     }
 
-    #footerContent p {
+    #footer-content p {
         font-size: 1rem;
         color: #ccc;
         margin-bottom: 1.5rem;
     }
 
-    #socialMedia {
+    #social-media {
         display: flex;
         justify-content: center;
         gap: 2rem;
         margin-bottom: 1.5rem;
     }
 
-    #socialMedia a {
+    #social-media a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -335,13 +336,13 @@
         text-decoration: none;
     }
 
-    #socialMedia a:hover {
+    #social-media a:hover {
         background-color: #51faaa;
         color: #1c1a31;
         transform: scale(1.1);
     }
 
-    #copy {
+    #copyright {
         font-size: 0.9rem;
         color: #888;
     }
@@ -360,7 +361,7 @@
         color: white;
     }
 
-    /* HEADER__________________________ */
+    /* HEADER */
     .container {
         position: fixed;
         top: 0;
@@ -375,7 +376,7 @@
         padding: 1rem;
     }
 
-    #taskBar {
+    #task-bar {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -400,16 +401,11 @@
         font-size: 1.5rem;
     }
 
-    #buscador {
-        width: 80%;
-        padding: 0.5rem;
-        border-radius: 10px;
-        border: 1px solid #3a3c5f;
-        background-color: #1c1a31;
-        color: white;
-    }
+    /* #search {
+        display: none;
+    } */
 
-    #navBar ul {
+    #nav-bar ul {
         list-style-type: none;
         display: flex;
         gap: 1.5rem;
@@ -417,7 +413,7 @@
         padding: 0;
     }
 
-    #navBar a {
+    #nav-bar a {
         text-decoration: none;
         color: #45488f;
         padding: 0.5rem 1rem;
@@ -426,34 +422,34 @@
         font-size: 0.9rem;
     }
 
-    #navBar a:hover {
+    #nav-bar a:hover {
         color: black;
         background-color: #51faaa;
     }
 
-    /* MAIN CONTENT__________________________ */
+    /* MAIN CONTENT */
     .home {
         padding-top: 180px;
     }
 
-    #contentMagin {
+    #content-margin {
         text-align: center;
         margin: 10% 0;
         padding: 0 2rem;
     }
 
-    #contentMagin h1 {
+    #content-margin h1 {
         font-size: 40px;
         text-decoration: underline;
     }
 
-    #contentMagin p {
+    #content-margin p {
         max-width: 80%;
         margin: 1rem auto;
         font-size: 0.9rem;
     }
 
-    #listas {
+    #artists-button {
         font-family: 'Holtwood One SC', serif;
         margin-top: 2rem;
         border: 1px solid transparent;
@@ -466,13 +462,13 @@
         text-decoration: none;
     }
 
-    #listas:hover {
+    #artists-button:hover {
         background-color: white;
         padding: 1rem 2rem;
     }
 
-    /* ARTISTAS__________________________ */
-    #musicianCard {
+    /* ARTISTS */
+    #musician-card {
         padding: 2rem 0;
         display: flex;
         flex-direction: column;
@@ -535,8 +531,8 @@
         margin: 0;
     }
 
-    /* SERVICIOS__________________________ */
-    #sevices {
+    /* SERVICES */
+    #services {
         min-height: 80vh;
         width: 100vw;
         display: flex;
@@ -544,25 +540,25 @@
         padding: 2rem 0;
     }
 
-    #serviceContainer {
+    #service-container {
         background-color: #141223;
         width: 100vw;
-        padding: 3rem 2rem;
+        padding: 6rem 2rem;
         text-align: center;
     }
 
-    #serviceContainer h2 {
+    #service-container h2 {
         font-size: 2rem;
         margin-bottom: 1.5rem;
     }
 
-    #serviceContainer p {
+    #service-container p {
         max-width: 85%;
         margin: 1rem auto;
         font-size: 0.9rem;
     }
 
-    /* CONTACTO__________________________ */
+    /* CONTACT */
     #contact {
         width: 100vw;
         min-height: 100vh;
@@ -573,36 +569,36 @@
         padding: 2rem 0;
     }
 
-    #contactContainer {
+    #contact-container {
         width: 90vw;
         display: flex;
         flex-direction: column;
         gap: 2rem;
     }
 
-    #contactForm {
+    #contact-form {
         background-color: #141223;
         border-radius: 20px;
         padding: 2rem;
         width: 100%;
     }
 
-    #contactForm h2 {
+    #contact-form h2 {
         font-size: 1.8rem;
         margin-bottom: 1rem;
         color: #51faaa;
         text-align: center;
     }
 
-    #contactForm label {
+    #contact-form label {
         margin-top: 1rem;
         margin-bottom: 0.5rem;
         display: block;
         font-size: 0.9rem;
     }
 
-    #contactForm input,
-    #contactForm textarea {
+    #contact-form input,
+    #contact-form textarea {
         width: 100%;
         padding: 0.8rem;
         border: none;
@@ -613,12 +609,12 @@
         box-sizing: border-box;
     }
 
-    #contactForm input:focus,
-    #contactForm textarea:focus {
+    #contact-form input:focus,
+    #contact-form textarea:focus {
         outline: 2px solid #51faaa;
     }
 
-    #enviar {
+    #submit-button {
         margin-top: 1.5rem;
         background-color: #51faaa;
         border: none;
@@ -631,19 +627,19 @@
         cursor: pointer;
     }
 
-    #enviar:hover {
+    #submit-button:hover {
         background-color: white;
     }
 
-    #mapContainer {
+    #map-container {
         width: 100%;
         border-radius: 20px;
         overflow: hidden;
         height: 400px;
     }
 
-    /* FOOTER__________________________ */
-    #footerContainer {
+    /* FOOTER */
+    #footer-container {
         background-color: #141223;
         width: 100vw;
         padding: 2.5rem 0;
@@ -652,32 +648,32 @@
         align-items: center;
     }
 
-    #footerContent {
+    #footer-content {
         text-align: center;
         color: white;
         width: 85%;
     }
 
-    #footerContent h3 {
+    #footer-content h3 {
         font-size: 1.6rem;
         margin-bottom: 0.5rem;
         color: #51faaa;
     }
 
-    #footerContent p {
+    #footer-content p {
         font-size: 0.9rem;
         color: #ccc;
         margin-bottom: 1.5rem;
     }
 
-    #socialMedia {
+    #social-media {
         display: flex;
         justify-content: center;
         gap: 1.5rem;
         margin-bottom: 1.5rem;
     }
 
-    #socialMedia a {
+    #social-media a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -691,19 +687,19 @@
         text-decoration: none;
     }
 
-    #socialMedia a:hover {
+    #social-media a:hover {
         background-color: #51faaa;
         color: #1c1a31;
         transform: scale(1.1);
     }
 
-    #copy {
+    #copyright {
         font-size: 0.85rem;
         color: #888;
     }
 }
 
-
+/* MOBILE (max 600px) */
 @media only screen and (max-width: 600px) {
     * {
         margin: 0;
@@ -716,7 +712,7 @@
         color: white;
     }
 
-    /* HEADER_________________________________*/
+    /* HEADER */
     .container {
         position: fixed;
         top: 0;
@@ -730,7 +726,7 @@
         padding: 1rem;
     }
 
-    #taskBar {
+    #task-bar {
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -755,7 +751,7 @@
         font-size: 1.2rem;
     }
 
-    #buscador {
+    /* #search {
         width: 90%;
         padding: 0.5rem;
         border-radius: 10px;
@@ -763,9 +759,9 @@
         background-color: #1c1a31;
         color: white;
         font-size: 0.9rem;
-    }
+    } */
 
-    #navBar ul {
+    #nav-bar ul {
         list-style-type: none;
         display: flex;
         flex-wrap: wrap;
@@ -775,7 +771,7 @@
         padding: 0;
     }
 
-    #navBar a {
+    #nav-bar a {
         text-decoration: none;
         color: #45488f;
         padding: 0.4rem 0.8rem;
@@ -784,7 +780,7 @@
         font-size: 0.75rem;
     }
 
-    #navBar a:hover {
+    #nav-bar a:hover {
         color: black;
         background-color: #51faaa;
     }
@@ -794,26 +790,26 @@
         padding-top: 200px;
     }
 
-    #contentMagin {
+    #content-margin {
         text-align: center;
         margin: 2rem 0;
         padding: 0 1.5rem;
     }
 
-    #contentMagin h1 {
+    #content-margin h1 {
         font-size: 28px;
         text-decoration: underline;
         margin-bottom: 1rem;
     }
 
-    #contentMagin p {
+    #content-margin p {
         width: 100%;
         margin: 1rem auto;
         font-size: 0.75rem;
         line-height: 1.5;
     }
 
-    #listas {
+    #artists-button {
         font-family: 'Holtwood One SC', serif;
         margin-top: 1.5rem;
         border: 1px solid transparent;
@@ -827,12 +823,12 @@
         font-size: 0.85rem;
     }
 
-    #listas:active {
+    #artists-button:active {
         background-color: white;
     }
 
-    /* ARTISTAS__________________________ */
-    #musicianCard {
+    /* ARTISTS */
+    #musician-card {
         padding: 1.5rem 0;
         display: flex;
         flex-direction: column;
@@ -894,8 +890,8 @@
         margin: 0;
     }
 
-    /* SERVICIOS__________________________ */
-    #sevices {
+    /* SERVICES */
+    #services {
         min-height: auto;
         width: 100vw;
         display: flex;
@@ -903,26 +899,26 @@
         padding: 2rem 0;
     }
 
-    #serviceContainer {
+    #service-container {
         background-color: #141223;
         width: 100vw;
         padding: 2rem 1.5rem;
         text-align: center;
     }
 
-    #serviceContainer h2 {
+    #service-container h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
     }
 
-    #serviceContainer p {
+    #service-container p {
         width: 100%;
         margin: 1rem auto;
         font-size: 0.75rem;
         line-height: 1.5;
     }
 
-    /* CONTACTO__________________________ */
+    /* CONTACT */
     #contact {
         width: 100vw;
         min-height: auto;
@@ -933,14 +929,14 @@
         padding: 2rem 0;
     }
 
-    #contactContainer {
+    #contact-container {
         width: 95vw;
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
     }
 
-    #contactForm {
+    #contact-form {
         background-color: #141223;
         border-radius: 15px;
         padding: 1.5rem;
@@ -948,22 +944,22 @@
         box-sizing: border-box;
     }
 
-    #contactForm h2 {
+    #contact-form h2 {
         font-size: 1.4rem;
         margin-bottom: 1rem;
         color: #51faaa;
         text-align: center;
     }
 
-    #contactForm label {
+    #contact-form label {
         margin-top: 0.8rem;
         margin-bottom: 0.4rem;
         display: block;
         font-size: 0.8rem;
     }
 
-    #contactForm input,
-    #contactForm textarea {
+    #contact-form input,
+    #contact-form textarea {
         width: 100%;
         padding: 0.7rem;
         border: none;
@@ -975,12 +971,12 @@
         box-sizing: border-box;
     }
 
-    #contactForm input:focus,
-    #contactForm textarea:focus {
+    #contact-form input:focus,
+    #contact-form textarea:focus {
         outline: 2px solid #51faaa;
     }
 
-    #enviar {
+    #submit-button {
         margin-top: 1.2rem;
         background-color: #51faaa;
         border: none;
@@ -994,11 +990,11 @@
         cursor: pointer;
     }
 
-    #enviar:active {
+    #submit-button:active {
         background-color: white;
     }
 
-    #mapContainer {
+    #map-container {
         width: 100%;
         border-radius: 15px;
         overflow: hidden;
@@ -1006,7 +1002,7 @@
     }
 
     /* FOOTER */
-    #footerContainer {
+    #footer-container {
         background-color: #141223;
         width: 100vw;
         padding: 2rem 0;
@@ -1015,33 +1011,33 @@
         align-items: center;
     }
 
-    #footerContent {
+    #footer-content {
         text-align: center;
         color: white;
         width: 90%;
     }
 
-    #footerContent h3 {
+    #footer-content h3 {
         font-size: 1.3rem;
         margin-bottom: 0.5rem;
         color: #51faaa;
     }
 
-    #footerContent p {
+    #footer-content p {
         font-size: 0.75rem;
         color: #ccc;
         margin-bottom: 1.2rem;
         line-height: 1.4;
     }
 
-    #socialMedia {
+    #social-media {
         display: flex;
         justify-content: center;
         gap: 1.2rem;
         margin-bottom: 1.2rem;
     }
 
-    #socialMedia a {
+    #social-media a {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1055,13 +1051,13 @@
         text-decoration: none;
     }
 
-    #socialMedia a:active {
+    #social-media a:active {
         background-color: #51faaa;
         color: #1c1a31;
         transform: scale(0.95);
     }
 
-    #copy {
+    #copyright {
         font-size: 0.7rem;
         color: #888;
     }
