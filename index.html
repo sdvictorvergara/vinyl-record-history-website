@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
-    <title>vinyl-record-history</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>vinyl-record</title>
 </head>
 
 <body>
@@ -39,16 +39,100 @@
                     est. Phasellus posuere mi ac ligula consectetur pharetra. Curabitur orci lectus, bibendum a elit
                     vehicula, varius congue dolor. Nam eu mattis dui. Proin quis risus lectus. Nullam eu risus
                     efficitur, mollis velit eget, sollicitudin tellus.</p>
-                <a href="https://crankyuncle.com/please-dont-fail-me/" target="_blank" id="listas">Listado de Artistas</a>
+                <a href="#musicianCard" target="_blank" id="listas">Artistas</a>
             </div>
         </div>
         <section id="musicianCard">
+
             <article class="card">
+                <div class="mini-card">
+                    <img src="images/artistas/ab6761610000e5ebabc44fce61c8d4622dc2bff1.jpeg" alt="Artista 1">
+                    <h3>Cacho Castaña</h3>
+                    <p>Género:</p>
+                    <p>Balada Romántica</p>
+                    <p>Tango</p>
+                </div>
+
+                <div class="mini-card">
+                    <img src="images/artistas/ab6761610000f178cfa46d3543ba0839df7d3062.jpeg" alt="Artista 2">
+                    <h3>Carlos Gardel</h3>
+                    <p>Género:</p>
+                    <p>Música clásica</p>
+                    <p>Tango</p>
+                </div>
+
+                <div class="mini-card">
+                    <img src="images/artistas/Hugo_del_Carril_by_Annemarie_Heinrich_-_Cromocart_Edition.jpg" alt="Artista 3">
+                    <h3>Hugo del Carril</h3>
+                    <p>Género:</p>
+                    <p>Pop</p>
+                    <p>Tango</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="mini-card">
+                    <img src="images/artistas/unnamed.jpg" alt="Artista 4">
+                    <h3> Andres Calamaro</h3>
+                    <p>Género:</p>
+                    <p>Reggae</p>
+                    <p>Pop</p>
+                    <p>Rock</p>
+                </div>
+
+                <div class="mini-card">
+                    <img src="images/artistas/228.webp" alt="Artista 5">
+                    <h3>Fito Paez</h3>
+                    <p>Género:</p>
+                    <p>Rock</p>
+                </div>
+
+                <div class="mini-card">
+                    <img src="images/artistas/4JHY5JANGNHRPPM7PP2U6MHPRE.avif" alt="Artista 6">
+                    <h3>Luis Alberto Spinetta</h3>
+                    <p>Género:</p>
+                    <p>Rock</p>
+                </div>
+            </article>
+
+            <article class="card">
+                <div class="mini-card">
+                    <img src="images/artistas/images.webp" alt="Artista 7">
+                    <h3>Los Zafiros</h3>
+                    <p>Género:</p>
+                    <p>Bossa Nova</p>
+                    <p>Bolero</p>
+                </div>
+
+                <div class="mini-card">
+                    <img src="images/artistas/hqdefault.jpg" alt="Artista 8">
+                    <h3>Metalingüística</h3>
+                    <p>Género:</p>
+                    <p>Vals</p>
+                    <p>Bolero</p>
+                </div>
+
+                <div class="mini-card">
+                    <img src="images/artistas/pedro_infante_chaparro.jpg" alt="Artista 9">
+                    <h3>Pedro Infante</h3>
+                    <p>Género:</p>
+                    <p>Valses</p>
+                    <p>chachachás</p>
+                    <p>rancheras</p>
+                    <p>boleros</p>
+
+                </div>
             </article>
             <article class="card">
+               <div class="mini-card">
+                    <img src="images/artistas/fotonoticia_20230220143925_412.jpg" alt="Artista 10">
+                    <h3>WOS</h3>
+                    <p>Género:</p>
+                    <p>Rock Alternativo</p>
+                    <p>Hip hop</p>
+                </div>
             </article>
-            <article class="card">
-            </article>
+
         </section>
         <section id="sevices">
             <div id="serviceContainer">
@@ -57,34 +141,64 @@
                     est. Phasellus posuere mi ac ligula consectetur pharetra. Curabitur orci lectus, bibendum a elit
                     vehicula, varius congue dolor. Nam eu mattis dui. Proin quis risus lectus. Nullam eu risus
                     efficitur, mollis velit eget, sollicitudin tellus.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tincidunt quam, vitae elementum
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vel tincidunt quam, vitae elementum
                     est. Phasellus posuere mi ac ligula consectetur pharetra. Curabitur orci lectus, bibendum a elit
                     vehicula, varius congue dolor. Nam eu mattis dui. Proin quis risus lectus. Nullam eu risus
                     efficitur, mollis velit eget, sollicitudin tellus.</p>
             </div>
         </section>
         <section id="contact">
-            <form action="" method="post">
-                
-            </form>
+            <div id="contactContainer">
+                <div id="contactForm">
+                    <h2>Contáctanos</h2>
+                    <form action="#" method="post">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+                        <label for="correo">Correo electrónico</label>
+                        <input type="email" id="correo" name="correo" placeholder="Tu correo" required>
+
+                        <label for="asunto">Asunto</label>
+                        <input type="text" id="asunto" name="asunto" placeholder="Asunto" required>
+
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje..."
+                            required></textarea>
+
+                        <button type="submit" id="enviar">Enviar</button>
+                    </form>
+                </div>
+
+                <div id="mapContainer">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7037.2525216679705!2d-15.449318323868791!3d28.1274174068379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc40951c8a18a0f3%3A0x142cb0d09763a325!2sIES%20El%20Rinc%C3%B3n!5e0!3m2!1ses!2ses!4v1761755446628!5m2!1ses!2ses"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
         </section>
     </main>
     <footer>
         <div id="footerContainer">
-            <div id="socialMedia">
-                <a id="email" href="https://github.com/sdvictorvergara" target="_blank">
-                    <!-- <img src="images/nav-icon.svg" alt=""> -->
-                </a>
-                <a id="github" href="https://github.com/sdvictorvergara" target="_blank">
-                    <!-- <img src="images/nav-icon.svg" alt=""> -->
-                </a>
-                <a href="https://github.com/sdvictorvergara" target="_blank">
-                    <!-- <img src="images/nav-icon.svg" alt=""> -->
-                </a>
+            <div id="footerContent">
+                <h3>Vinyl Record WEB</h3>
+                <p>Explora entre vinilos y conéctate con nosotros.</p>
+
+                <div id="socialMedia">
+                    <a href="mailto:sdvictorvergara@gmail.com" id="email" target="_blank" title="Enviar correo">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/sdvictorvergara" id="github" target="_blank" title="Ver en GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+                <p id="copy">© 2025 Víctor Vergara</p>
             </div>
-            <!-- <p>© 2025 Víctor Vergara</p> -->
         </div>
     </footer>
+
 </body>
+
 
 </html>
