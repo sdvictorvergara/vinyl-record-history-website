@@ -32,12 +32,32 @@ vinyl-record-history-website/
 │   └── style.css
 │
 ├── images/
-│   ├── 898d8d.jpg
 │   ├── logo.ico
-│   └── nav-icon.svg
+│   └── artistas/
+│       ├── alberto-spinetta.avif
+│       ├── andres-calamaro.jpg
+│       ├── cacho-castaña.jpeg
+│       ├── carlos-gardel.jpeg
+│       ├── fito-paez.webp
+│       ├── hugo-carril.jpg
+│       ├── los-zafiros.webp
+│       ├── pedro-infante.jpg
+│       ├── trio-reyes.jpg
+│       └── wos.jpg
 │
-└── README.md
+└── js/
+    └── main.js
+
 ````
+## 🙌 Credits & References
+
+This project was inspired and supported by ideas, resources, and people from the GitHub community:
+
+- [@Ixf2](https://github.com/Ixf2) 
+- [@tcrurav](https://github.com/tcrurav)
+
+- https://dribbble.com/shots/25478108-Puzzle-Fintech-Website-Design-Case-Study
+- https://dribbble.com/shots/26400713-Retro-Music-Vinyl-Corporate-site-Web-Motion-Design
 
 ## ✒️ Author
 Víctor Gabriel Vergara Alejandro
