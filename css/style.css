@@ -648,6 +648,11 @@
     height: 400px;
   }
 
+  iframe {
+    width: 100%;
+    height: 100%;
+  }
+
   /* FOOTER */
   #footer-container {
     background-color: #141223;
@@ -1009,6 +1014,11 @@
     border-radius: 15px;
     overflow: hidden;
     height: 300px;
+  }
+
+  iframe {
+    width: 100%;
+    height: 100%;
   }
 
   /* FOOTER */
